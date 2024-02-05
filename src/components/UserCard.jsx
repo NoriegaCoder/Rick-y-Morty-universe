@@ -11,7 +11,7 @@ const UserCard = ({ url }) => {
 
   }, [])
 
-  console.log(resident)
+  //console.log(resident)
 
   return (
     <article className='resident'>

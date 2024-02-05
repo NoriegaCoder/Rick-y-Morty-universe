@@ -3,7 +3,7 @@ import './styles/LocationCard.css'
 
 const LocationCard = ({data}) => {
     
-console.log(data)
+//console.log(data)
 
   return (
     <section className='location'>

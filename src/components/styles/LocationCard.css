@@ -4,6 +4,7 @@
     margin: 35px 0;
     border-radius: 10px;
     box-shadow: 5px 4px 10px black;
+    min-width: 40%;
 }
 
 .locationTitle{
@@ -16,6 +17,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+    justify-content: space-between;
 }
 
 .locationItem {
