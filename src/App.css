@@ -9,12 +9,7 @@
   padding: 0;
 }
 
-img{
-  display: inline-block;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-}
+
 input,
 button{
   display: inline-block;
@@ -28,7 +23,7 @@ html{
 }
 
 body {
-  background-color: #06292e;
+  background-color: #011F18;
   color: antiquewhite;
 }
 
@@ -37,10 +32,7 @@ ul {
 }
 
 .header {
-  height: 200px;
-  overflow: hidden;
-  display: flex;
-
+height: 200px;
 }
 
 .header img{

@@ -24,7 +24,7 @@ function App() {
   return (
     <div className='app'>
       <header className='header'>
-       <img src="https://w.forfun.com/fetch/df/df44f1267704ce51e42c6146068f0c3f.jpeg" alt="" />
+       <img src="https://i.redd.it/eg7w8d3e6rhz.png" alt="" />
       </header>
 
 
