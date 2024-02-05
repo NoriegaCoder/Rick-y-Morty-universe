@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&family=Nunito:wght@400;600;700&family=Sixtyfour&display=swap");
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+input,
+button{
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+}
+
+html{
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+body {
+  background-color: #06292e;
+  color: antiquewhite;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+
+}
+
+.header img{
+  width: 100%;
+}
+
+/*-------App styles------*/
+
+h1 {
+  margin-top: 35px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appForm {
+  margin-top: 35px;
+}
+
+.appText{
+  text-align: center;
+  width: 180px;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  background-color: #ffffff;
+}
+.appBtn {
+  padding: 5px 10px;
+  border-radius: 0 5px 5px 0;
+  background-color: #70a821;
+  color: #ffffff;
+}
+
+.appContent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+}

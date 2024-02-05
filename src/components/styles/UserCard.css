@@ -1,0 +1,71 @@
+.resident {
+    background-color: #062226;
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.residentPhoto {
+    position: relative;
+}
+
+.residentStatus {
+    background-color: #062226;
+    position: absolute;
+    top: 10%;
+    padding: 5px 10px;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.residentCircle{
+    background-color: gray;
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+
+}
+
+.residentName {
+    font-family: 'Sixtyfour', sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+.resident hr {
+    border: 1px solid rgba(128, 128, 128, 0.415);
+    width: 85%;
+    margin: 0 auto;
+}
+
+.residentList {
+    padding: 1rem;
+}
+
+.residentItem {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.residentItem span:first-child {
+    padding-left: 20px;
+    color: gray;
+    font-weight: 400;
+    font-size: small;
+}
+
+.residentItem span:last-child {
+    margin-bottom: 10px;
+}
+
+.Alive {
+    background-color: #03a104;
+}
+
+.Dead {
+    background-color: #db0809;
+}
