@@ -37,6 +37,8 @@ height: 200px;
 
 .header img{
   width: 100%;
+  min-width: 850px;
+
 }
 
 /*-------App styles------*/

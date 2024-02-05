@@ -36,8 +36,7 @@ function App() {
           </>
           :
           <>
-
-            <h1>Rick and Morty</h1>
+<br />
 
             <form onSubmit={handleSumbit} className='appForm'>
               <input
